@@ -2,7 +2,7 @@
 
 ![image](https://github.com/WenHuayu/CountDownView/blob/master/img/show.gif)
 
-####1.在项目文件中添加jitpack仓库,如果已经有了就不用了
+#### 1.在项目文件中添加jitpack仓库,如果已经有了就不用了
 
 	allprojects {
 			repositories {
@@ -11,13 +11,13 @@
 			}
 		}
 	
-####2.在模块中添加模块
+#### 2.在模块中添加模块
 
 	dependencies {
 				implementation 'com.github.WenHuayu:CountDownView:1.0.0'
 		}
 	
-####3.在xml中使用
+#### 3.在xml中使用
 
     <com.why94.view.CountDownView
         android:layout_width="wrap_content"
@@ -35,13 +35,13 @@
         app:cdv_unit_size="12sp"
         app:cdv_unit_width="16dp" />
 		
-####4.在代码中使用
+#### 4.在代码中使用
         
 	CountDownView view = findViewById(R.id.cdv);
 	
         view.start(...);
 
-##自定义样式
+## 自定义样式
 
 创建一个绘制类继承CountDownView.PainterAdapter,在draw(...)方法内绘制自己想要的样式
 
