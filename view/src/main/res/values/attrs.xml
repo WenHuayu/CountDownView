@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountDownView">
+        <attr name="cdv_range_max" format="enum">
+            <enum name="millisecond" value="0" />
+            <enum name="second" value="1" />
+            <enum name="minute" value="2" />
+            <enum name="hour" value="3" />
+            <enum name="day" value="4" />
+        </attr>
+        <attr name="cdv_range_min" format="enum">
+            <enum name="millisecond" value="0" />
+            <enum name="second" value="1" />
+            <enum name="minute" value="2" />
+            <enum name="hour" value="3" />
+            <enum name="day" value="4" />
+        </attr>
+        <attr name="cdv_number_size" format="dimension" />
+        <attr name="cdv_number_color" format="color" />
+        <attr name="cdv_number_background" format="color" />
+        <attr name="cdv_number_width" format="dimension" />
+        <attr name="cdv_number_height" format="dimension" />
+        <attr name="cdv_number_round" format="dimension" />
+        <attr name="cdv_unit_size" format="dimension" />
+        <attr name="cdv_unit_color" format="color" />
+        <attr name="cdv_unit_background" format="color" />
+        <attr name="cdv_unit_width" format="dimension" />
+        <attr name="cdv_unit_height" format="dimension" />
+        <attr name="cdv_unit_round" format="dimension" />
+    </declare-styleable>
+</resources>
