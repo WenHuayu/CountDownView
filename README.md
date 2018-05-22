@@ -1,4 +1,4 @@
-#一个可以自定义样式的倒计时View
+# 一个可以自定义样式的倒计时View
 
 ![image](https://github.com/WenHuayu/CountDownView/blob/master/img/show.gif)
 
