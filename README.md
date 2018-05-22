@@ -36,7 +36,8 @@
         app:cdv_unit_width="16dp" />
 		
 ####4.在代码中使用
-        CountDownView view = findViewById(R.id.cdv);
+        
+	CountDownView view = findViewById(R.id.cdv);
 	
         view.start(...);
 
