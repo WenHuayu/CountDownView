@@ -37,6 +37,7 @@
 		
 ####4.在代码中使用
         CountDownView view = findViewById(R.id.cdv);
+	
         view.start(...);
 
 ##自定义样式
