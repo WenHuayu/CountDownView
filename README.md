@@ -1,6 +1,6 @@
 #一个可以自定义样式的倒计时View
 
-![show.gif](https://upload-images.jianshu.io/upload_images/2501962-d248753b9388ff3a.gif?imageMogr2/auto-orient/strip)
+![image](https://github.com/WenHuayu/CountDownView/blob/master/img/show.gif)
 
 ####1.在项目文件中添加jitpack仓库,如果已经有了就不用了
 
